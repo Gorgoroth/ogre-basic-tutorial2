@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/vk/Games/ogre3d/ogre-test/BaseApplication.cpp" "/home/vk/Games/ogre3d/ogre-test/CMakeFiles/OgreApp.dir/BaseApplication.cpp.o"
-  "/home/vk/Games/ogre3d/ogre-test/TutorialApplication.cpp" "/home/vk/Games/ogre3d/ogre-test/CMakeFiles/OgreApp.dir/TutorialApplication.cpp.o"
+  "/home/vk/Games/ogre3d/ogre-basic-tutorial2/BaseApplication.cpp" "/home/vk/Games/ogre3d/ogre-basic-tutorial2/CMakeFiles/OgreApp.dir/BaseApplication.cpp.o"
+  "/home/vk/Games/ogre3d/ogre-basic-tutorial2/BasicTutorial2.cpp" "/home/vk/Games/ogre3d/ogre-basic-tutorial2/CMakeFiles/OgreApp.dir/BasicTutorial2.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

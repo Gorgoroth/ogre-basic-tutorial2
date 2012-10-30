@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vk/Games/ogre3d/ogre-test
+CMAKE_SOURCE_DIR = /home/vk/Games/ogre3d/ogre-basic-tutorial2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vk/Games/ogre3d/ogre-test
+CMAKE_BINARY_DIR = /home/vk/Games/ogre3d/ogre-basic-tutorial2
 
 #=============================================================================
 # Target rules for target CMakeFiles/OgreApp.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/vk/Games/ogre3d/ogre-test
 CMakeFiles/OgreApp.dir/all:
 	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/depend
 	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vk/Games/ogre3d/ogre-test/CMakeFiles  1 2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vk/Games/ogre3d/ogre-basic-tutorial2/CMakeFiles  1 2
 	@echo "Built target OgreApp"
 .PHONY : CMakeFiles/OgreApp.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/OgreApp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OgreApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vk/Games/ogre3d/ogre-test/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vk/Games/ogre3d/ogre-basic-tutorial2/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OgreApp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vk/Games/ogre3d/ogre-test/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vk/Games/ogre3d/ogre-basic-tutorial2/CMakeFiles 0
 .PHONY : CMakeFiles/OgreApp.dir/rule
 
 # Convenience name for target.

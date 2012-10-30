@@ -1,1 +1,1 @@
-/home/vk/Games/ogre3d/ogre-test/CMakeFiles/OgreApp.dir
+/home/vk/Games/ogre3d/ogre-basic-tutorial2/CMakeFiles/OgreApp.dir

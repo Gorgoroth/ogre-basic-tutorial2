@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vk/Games/ogre3d/ogre-test
+CMAKE_SOURCE_DIR = /home/vk/Games/ogre3d/ogre-basic-tutorial2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vk/Games/ogre3d/ogre-test
+CMAKE_BINARY_DIR = /home/vk/Games/ogre3d/ogre-basic-tutorial2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,9 +110,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vk/Games/ogre3d/ogre-test/CMakeFiles /home/vk/Games/ogre3d/ogre-test/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vk/Games/ogre3d/ogre-basic-tutorial2/CMakeFiles /home/vk/Games/ogre3d/ogre-basic-tutorial2/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vk/Games/ogre3d/ogre-test/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vk/Games/ogre3d/ogre-basic-tutorial2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,29 +176,29 @@ BaseApplication.cpp.s:
 	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/BaseApplication.cpp.s
 .PHONY : BaseApplication.cpp.s
 
-TutorialApplication.o: TutorialApplication.cpp.o
-.PHONY : TutorialApplication.o
+BasicTutorial2.o: BasicTutorial2.cpp.o
+.PHONY : BasicTutorial2.o
 
 # target to build an object file
-TutorialApplication.cpp.o:
-	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/TutorialApplication.cpp.o
-.PHONY : TutorialApplication.cpp.o
+BasicTutorial2.cpp.o:
+	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/BasicTutorial2.cpp.o
+.PHONY : BasicTutorial2.cpp.o
 
-TutorialApplication.i: TutorialApplication.cpp.i
-.PHONY : TutorialApplication.i
+BasicTutorial2.i: BasicTutorial2.cpp.i
+.PHONY : BasicTutorial2.i
 
 # target to preprocess a source file
-TutorialApplication.cpp.i:
-	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/TutorialApplication.cpp.i
-.PHONY : TutorialApplication.cpp.i
+BasicTutorial2.cpp.i:
+	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/BasicTutorial2.cpp.i
+.PHONY : BasicTutorial2.cpp.i
 
-TutorialApplication.s: TutorialApplication.cpp.s
-.PHONY : TutorialApplication.s
+BasicTutorial2.s: BasicTutorial2.cpp.s
+.PHONY : BasicTutorial2.s
 
 # target to generate assembly for a file
-TutorialApplication.cpp.s:
-	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/TutorialApplication.cpp.s
-.PHONY : TutorialApplication.cpp.s
+BasicTutorial2.cpp.s:
+	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/BasicTutorial2.cpp.s
+.PHONY : BasicTutorial2.cpp.s
 
 # Help Target
 help:
@@ -216,9 +216,9 @@ help:
 	@echo "... BaseApplication.o"
 	@echo "... BaseApplication.i"
 	@echo "... BaseApplication.s"
-	@echo "... TutorialApplication.o"
-	@echo "... TutorialApplication.i"
-	@echo "... TutorialApplication.s"
+	@echo "... BasicTutorial2.o"
+	@echo "... BasicTutorial2.i"
+	@echo "... BasicTutorial2.s"
 .PHONY : help
 
 

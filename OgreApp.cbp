@@ -8,18 +8,18 @@
       <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\OGRE\;CMake Files\..\..\..\..\..\usr\local\lib\OGRE\cmake\;" />
       <Build>
       <Target title="all">
-         <Option working_dir="/home/vk/Games/ogre3d/ogre-test" />
+         <Option working_dir="/home/vk/Games/ogre3d/ogre-basic-tutorial2" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 all" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="OgreApp">
-         <Option output="/home/vk/Games/ogre3d/ogre-test/dist/bin/OgreApp" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/vk/Games/ogre3d/ogre-test/dist/bin" />
+         <Option output="/home/vk/Games/ogre3d/ogre-basic-tutorial2/dist/bin/OgreApp" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/vk/Games/ogre3d/ogre-basic-tutorial2/dist/bin" />
          <Option object_output="./" />
          <Option type="0" />
          <Option compiler="gcc" />
@@ -38,15 +38,15 @@
             <Add directory="/usr/local/share/OGRE/samples/Common/include" />
          </Compiler>
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 OgreApp" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 OgreApp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="OgreApp/fast">
-         <Option output="/home/vk/Games/ogre3d/ogre-test/dist/bin/OgreApp" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/vk/Games/ogre3d/ogre-test/dist/bin" />
+         <Option output="/home/vk/Games/ogre3d/ogre-basic-tutorial2/dist/bin/OgreApp" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/vk/Games/ogre3d/ogre-basic-tutorial2/dist/bin" />
          <Option object_output="./" />
          <Option type="0" />
          <Option compiler="gcc" />
@@ -65,97 +65,97 @@
             <Add directory="/usr/local/share/OGRE/samples/Common/include" />
          </Compiler>
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 OgreApp/fast" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 OgreApp/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="edit_cache">
-         <Option working_dir="/home/vk/Games/ogre3d/ogre-test" />
+         <Option working_dir="/home/vk/Games/ogre3d/ogre-basic-tutorial2" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 edit_cache" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="install">
-         <Option working_dir="/home/vk/Games/ogre3d/ogre-test" />
+         <Option working_dir="/home/vk/Games/ogre3d/ogre-basic-tutorial2" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 install" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="install/local">
-         <Option working_dir="/home/vk/Games/ogre3d/ogre-test" />
+         <Option working_dir="/home/vk/Games/ogre3d/ogre-basic-tutorial2" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 install/local" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="install/strip">
-         <Option working_dir="/home/vk/Games/ogre3d/ogre-test" />
+         <Option working_dir="/home/vk/Games/ogre3d/ogre-basic-tutorial2" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 install/strip" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="list_install_components">
-         <Option working_dir="/home/vk/Games/ogre3d/ogre-test" />
+         <Option working_dir="/home/vk/Games/ogre3d/ogre-basic-tutorial2" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 list_install_components" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="rebuild_cache">
-         <Option working_dir="/home/vk/Games/ogre3d/ogre-test" />
+         <Option working_dir="/home/vk/Games/ogre3d/ogre-basic-tutorial2" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 rebuild_cache" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-test/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/vk/Games/ogre3d/ogre-basic-tutorial2/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       </Build>
-      <Unit filename="/home/vk/Games/ogre3d/ogre-test/BaseApplication.cpp">
+      <Unit filename="/home/vk/Games/ogre3d/ogre-basic-tutorial2/BaseApplication.cpp">
       </Unit>
-      <Unit filename="/home/vk/Games/ogre3d/ogre-test/TutorialApplication.cpp">
+      <Unit filename="/home/vk/Games/ogre3d/ogre-basic-tutorial2/BasicTutorial2.cpp">
       </Unit>
-      <Unit filename="/home/vk/Games/ogre3d/ogre-test/BaseApplication.h">
+      <Unit filename="/home/vk/Games/ogre3d/ogre-basic-tutorial2/BaseApplication.h">
       </Unit>
-      <Unit filename="/home/vk/Games/ogre3d/ogre-test/TutorialApplication.h">
+      <Unit filename="/home/vk/Games/ogre3d/ogre-basic-tutorial2/BasicTutorial2.h">
       </Unit>
-      <Unit filename="/home/vk/Games/ogre3d/ogre-test/CMakeLists.txt">
+      <Unit filename="/home/vk/Games/ogre3d/ogre-basic-tutorial2/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />
       </Unit>
-      <Unit filename="/home/vk/Games/ogre3d/ogre-test/../../../../../usr/local/lib/OGRE/cmake/FindOGRE.cmake">
+      <Unit filename="/home/vk/Games/ogre3d/ogre-basic-tutorial2/../../../../../usr/local/lib/OGRE/cmake/FindOGRE.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\OGRE\cmake\" />
       </Unit>
-      <Unit filename="/home/vk/Games/ogre3d/ogre-test/../../../../../usr/local/lib/OGRE/cmake/FindPkgMacros.cmake">
+      <Unit filename="/home/vk/Games/ogre3d/ogre-basic-tutorial2/../../../../../usr/local/lib/OGRE/cmake/FindPkgMacros.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\OGRE\cmake\" />
       </Unit>
-      <Unit filename="/home/vk/Games/ogre3d/ogre-test/../../../../../usr/local/lib/OGRE/cmake/PreprocessorUtils.cmake">
+      <Unit filename="/home/vk/Games/ogre3d/ogre-basic-tutorial2/../../../../../usr/local/lib/OGRE/cmake/PreprocessorUtils.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\OGRE\cmake\" />
       </Unit>
-      <Unit filename="/home/vk/Games/ogre3d/ogre-test/../../../../../usr/local/lib/OGRE/cmake/FindOIS.cmake">
+      <Unit filename="/home/vk/Games/ogre3d/ogre-basic-tutorial2/../../../../../usr/local/lib/OGRE/cmake/FindOIS.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\OGRE\cmake\" />
       </Unit>
-      <Unit filename="/home/vk/Games/ogre3d/ogre-test/../../../../../usr/local/lib/OGRE/cmake/FindPkgMacros.cmake">
+      <Unit filename="/home/vk/Games/ogre3d/ogre-basic-tutorial2/../../../../../usr/local/lib/OGRE/cmake/FindPkgMacros.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\OGRE\cmake\" />
       </Unit>
    </Project>

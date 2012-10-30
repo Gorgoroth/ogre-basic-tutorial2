@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/vk/Games/ogre3d/ogre-test/BaseApplication.cpp
-BaseApplication.h
-/home/vk/Games/ogre3d/ogre-test/BaseApplication.h
-
-/home/vk/Games/ogre3d/ogre-test/BaseApplication.h
+/home/vk/Games/ogre3d/ogre-basic-tutorial2/BaseApplication.h
 OgreCamera.h
 -
 OgreEntity.h
@@ -40,15 +36,15 @@ SdkTrays.h
 SdkCameraMan.h
 -
 
-/home/vk/Games/ogre3d/ogre-test/TutorialApplication.cpp
-TutorialApplication.h
-/home/vk/Games/ogre3d/ogre-test/TutorialApplication.h
+/home/vk/Games/ogre3d/ogre-basic-tutorial2/BasicTutorial2.cpp
+BasicTutorial2.h
+/home/vk/Games/ogre3d/ogre-basic-tutorial2/BasicTutorial2.h
 windows.h
-/home/vk/Games/ogre3d/ogre-test/windows.h
+/home/vk/Games/ogre3d/ogre-basic-tutorial2/windows.h
 
-/home/vk/Games/ogre3d/ogre-test/TutorialApplication.h
+/home/vk/Games/ogre3d/ogre-basic-tutorial2/BasicTutorial2.h
 BaseApplication.h
-/home/vk/Games/ogre3d/ogre-test/BaseApplication.h
+/home/vk/Games/ogre3d/ogre-basic-tutorial2/BaseApplication.h
 
 /usr/include/OIS/OISConfig.h
 
